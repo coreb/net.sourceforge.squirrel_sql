@@ -57,7 +57,7 @@
         {
           "type": "file",
           "url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.7.2/hsqldb-2.7.2.jar",
-          "sha256": "aa455133e664f6a7e6f30cd4f8ad83dfbd94eb717c438548e446784614a92"
+          "sha256": "aa455133e664f6a7e6f30cd0cd4f8ad83dfbd94eb717c438548e446784614a92"
         },
         {
           "type": "file",
