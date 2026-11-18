@@ -1,9 +1,9 @@
 {
   "app-id" : "net.sourceforge.squirrel_sql",
   "runtime" : "org.freedesktop.Platform",
-  "runtime-version" : "24.08",
+  "runtime-version" : "26.08",
   "sdk" : "org.freedesktop.Sdk",
-  "sdk-extensions" : ["org.freedesktop.Sdk.Extension.openjdk17"],
+  "sdk-extensions" : ["org.freedesktop.Sdk.Extension.openjdk21"],
   "command": "squirrel-sql",
   "finish-args" : [
     "--share=ipc",
@@ -14,7 +14,7 @@
     {
       "name" : "openjdk",
       "buildsystem" : "simple",
-      "build-commands" : [ "/usr/lib/sdk/openjdk17/install.sh" ]
+      "build-commands" : [ "/usr/lib/sdk/openjdk21/install.sh" ]
     },
     {
       "name" : "jdbc-drivers",
@@ -57,7 +57,7 @@
         {
           "type": "file",
           "url": "https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.7.2/hsqldb-2.7.2.jar",
-          "sha256": "aa455133e664f6a7e6f30cd0cd4f8ad83dfbd94eb717c438548e446784614a92"
+          "sha256": "aa455133e664f6a7e6f30cd4f8ad83dfbd94eb717c438548e446784614a92"
         },
         {
           "type": "file",
